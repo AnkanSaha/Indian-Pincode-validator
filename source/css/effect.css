@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#pincode{
+    text-align: center;
+}
+#afterresult{
+    text-align: center;
+    margin-bottom: 15vh;
+    font-size: xx-large;
+    animation: resultanimate 4s linear infinite alternate-reverse;
+    color: forestgreen;
+    display: none;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+section{
+    background-image: url('/source/media/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #dddddd;
+    height: auto;
+}
+/* Animations  */
+@keyframes resultanimate {
+    From{
+        font-size: xx-small;
+    }
+    To{
+        font-size: xx-large;
+    }
+}
+#loading{
+    display: none;
+}
+#Massage{
+    text-align: center;
+}
+#SuccessMsg{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+#Reloadbtn{
+    display: none;
+    margin-top: 2vh;
+}
+#textas h1{
+    padding: 2%;
+}
+#textas p{
+    padding: 2%;
+}

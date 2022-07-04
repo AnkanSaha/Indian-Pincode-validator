@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Get Full Details of Indian pincodes on one click"
+    />
+    <meta
+      name="keywords"
+      content="Pincodes, India, Indian Post, Post Office, get Details"
+    />
+    <!-- Dev's css Linker  -->
+    <link rel="stylesheet" href="/source/css/effect.css" />
+    <!-- Bootstrap CSS linker -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="https://logos-download.com/wp-content/uploads/2019/07/India_Post_Logo.png" type="image/x-icon">
+    <!-- Tailwind CSS JS Code Linker -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Adsterra Popunder Ads Code -->
+    <script type='text/javascript' src='//torchestanreason.com/09/9c/5d/099c5ddf9a4fde533ad06426bf5292f6.js'></script>
+    <title>Get Indian Pincode Details || Pincode Validator</title>
+  </head>
+  <style>
+    .py-24 {
+    padding-top: 6rem;
+    padding-bottom: 13rem;
+  }
+  </style>
+  <!-- Adsterra Social bar Ads Code  -->
+  <script type='text/javascript' src='//torchestanreason.com/e3/c1/ac/e3c1acdece817323c6368584248906f2.js'></script>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="https://logos-download.com/wp-content/uploads/2019/07/India_Post_Logo.png"
+              alt=""
+              width="33"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            Pincode Validator
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- information taker -->
+      <section class="text-gray-600 body-font">
+        <div  class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+          <div id="textas" class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+            <h1
+              style="
+                color: aliceblue;
+                background-color: black;
+                border-radius: 20px;
+                text-align: center;
+              "
+              class="title-font font-medium text-3xl text-gray-900"
+            >
+              Enter Pincode That you want to get details
+            </h1>
+            <p
+              style="
+                color: aliceblue;
+                background-color: rgb(1, 81, 92);
+                border-radius: 10px;
+                text-align: center;
+              "
+              class="leading-relaxed mt-4"
+            >
+              Get Instant All Indian Pincode Details in one Click. this is
+              completely free of cost service. You can use our Chreome Extention
+              (Desktop / Laptop only) for relible Use
+            </p>
+          </div>
+          <div
+            class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0"
+          >
+            <h2 class="text-gray-900 text-lg font-medium title-font mb-9">
+              Pincode Validator
+            </h2>
+            <!-- loading  -->
+            <div id="loading" class="text-center">
+              <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+            <div id="inputer" class="relative mb-4">
+              <label for="email" class="leading-7 text-sm text-gray-600"
+                >Enter 7 Digit Pincode</label
+              >
+              <input
+                type="number"
+                id="pincode"
+                name="email"
+                class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+            <div id="SuccessMsg">
+              <h1 id="Massage"></h1>
+            </div>
+            <button
+              id="validatebtn"
+              class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            >
+              Validete Now
+            </button>
+            <button
+            id="Reloadbtn"
+            class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" onClick="window.location.reload(true)"
+          >
+            Retry
+          </button>
+            <p class="text-xs text-gray-500 mt-3">
+              Please enter valid pincode to get 100% Accuracy Data.
+            </p>
+          </div>
+        </div>
+      </section>
+      <br>
+      <!-- <h2 id="afterresult">Result Recieved from server</h2> -->
+      <!-- result shower -->
+      <div id="resultTable"></div>
+    </main>
+  </body>
+  <script>
+    // Disable Right Click 
+ document.addEventListener('contextmenu', (e)=> {
+ 	e.preventDefault();
+ }, false)
+  </script>
+  <!-- Bootstrap JS Linker  -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+  <!-- Api Link  -->
+  <script src="/source/script/api.js"></script>
+</html>
